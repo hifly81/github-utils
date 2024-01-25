@@ -11,6 +11,14 @@ Populate _config_ file with:
  - _github_owner_: github handle where the repository exists
  - _github_repo_: github repositories (separated by ,) to fetch stats
 
+example _config_ file:
+
+```bash
+github_access_token="github_pat_XXXXXXXX"
+github_owner="hifly81"
+github_repo="kafka-examples,saga-pattern-demo"
+```
+
 ### Page views
 
 Get the total number of views and breakdown per day or week for the last 14 days. Timestamps are aligned to UTC midnight of the beginning of the day or week. Week begins on Monday.
