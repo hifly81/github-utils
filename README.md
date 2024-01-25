@@ -7,9 +7,9 @@ https://docs.github.com/en/rest/metrics/traffic
 
 Populate _config_ file with:
 
- - github_access_token: personal access token: To create one follow instructions at: https://github.com/settings/personal-access-tokens
- - github_owner: github handle where the repository exists
- - github_repo: github repository name to fetch stats
+ - _github_access_token_: personal access token: To create one follow instructions at: https://github.com/settings/personal-access-tokens
+ - _github_owner_: github handle where the repository exists
+ - _github_repo_: github repositories (separated by ,) to fetch stats
 
 ### Page views
 
