@@ -51,7 +51,7 @@ Get the top 10 popular contents over the last 14 days.
 $ top10_referrers_last14days.sh
 ```
 
-## Telegram notification
+## Telegram notifications
 
 Script _telegram_notifications.sh_ will send a report with page views and top referral to your Telegram Bot Channel.
 
@@ -61,7 +61,7 @@ Populate _telegram_notifications.sh_ file with:
  - _CHAT_ID_: Telegram Bot Chat ID
 
 ```bash
-$ _telegram_notifications.sh_
+$ telegram_notifications.sh
 ```
 
 ## Crontab
