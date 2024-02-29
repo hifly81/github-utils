@@ -17,7 +17,7 @@ Populate _config_ file with:
 example _config_ file:
 
 ```bash
-github_access_token="github_pat_XXXXXXXX"
+github_access_token="XXXXXXXX"
 github_owner="hifly81"
 github_repo="kafka-examples,saga-pattern-demo"
 ```
