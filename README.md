@@ -1,7 +1,10 @@
-# Github traffic stats
+# Github utils
 
 Github API Reference:
-https://docs.github.com/en/rest/metrics/traffic
+
+ - https://docs.github.com/en/rest
+ - https://docs.github.com/en/rest/metrics/traffic
+ - https://docs.github.com/en/rest/actions/workflow-runs
 
 ## How to use
 
@@ -49,6 +52,14 @@ Get the top 10 popular contents over the last 14 days.
 
 ```bash
 $ top10_referrers_last14days.sh
+```
+
+### Delete Workflow Run
+
+Utility to run a mass deletion of GitHub Actions workflow runs
+
+```bash
+$ delete_all_workflows_run.sh
 ```
 
 ## Telegram notifications

@@ -1,5 +1,5 @@
 function call_api {
-    source ./functions.sh
+    source ./config
 
     IFS=','
     read -ra values <<< "$github_repo"
